@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    background-color: #8E0505;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+background-image {
+    size-adjust: 500px;
+}
+
+.timer {
+    margin-top: 15px;
+    display: inline-block;
+    height: 70px;
+    width: 120px;
+    background-color: burlywood;
+}
+
+.modal {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: #00000085;
+    top: 200px;
+    right: 430px;
+    font-size: 30px;
+}
+
+.modal.hide {
+    display: none;
+}
+
+.modal button {
+    position: absolute;
+    bottom: 23px;
+    right: 185px;
+}
+
+button {
+    background: #FBFBFB;
+    background-image: -webkit-linear-gradient(top, #FBFBFB, #B11ED0);
+    background-image: -moz-linear-gradient(top, #FBFBFB, #B11ED0);
+    background-image: -ms-linear-gradient(top, #FBFBFB, #B11ED0);
+    background-image: -o-linear-gradient(top, #FBFBFB, #B11ED0);
+    background-image: -webkit-gradient(to bottom, #FBFBFB, #B11ED0);
+    -webkit-border-radius: 53px;
+    -moz-border-radius: 53px;
+    border-radius: 53px;
+    color: #060606;
+    font-family: Garamond;
+    font-size: 15px;
+    font-weight: 50;
+    padding: 5px;
+    -webkit-box-shadow: 0 8px 31px 0 #778021;
+    -moz-box-shadow: 0 8px 31px 0 #778021;
+    box-shadow: 0 8px 31px 0 #778021;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #D36868 3px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    border-radius: 20%;
+    background-color: #b2da00a1;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(202, 200, 200);
+    text-align: center;
+    cursor: pointer;
+    color: azure;
+    border-radius: 5%;
+}
+
+td.shown {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(202, 230, 211);
+    cursor: pointer;
+    color: azure;
+}
+
+td.mine {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    color: azure;
+}
+
+tr {
+    width: 40px;
+    height: 20px;
+    background-color: rgb(227, 228, 235);
+}
+
+table {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+button.reset {
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
